@@ -192,9 +192,10 @@ font-size: 1vw;
 }
 
 figcaption{
-  margin-left: 7vw;
-  font-size: 1.7vw;
+
+  font-size: 1vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-right: 2vw;
 
 }
 
@@ -223,4 +224,107 @@ font-size: 1.3vw;
   margin-left: 7vw;
   font-size: 1.3vw;
 }
+
+.container1 {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "pic0 pic1 pic2 pic3 pic4 pic5"
+    "pic6 pic7 pic8 pic9 pic10 pic11"
+    "pic12 pic13 pic14 pic15 pic16 pic17"
+    "pic18 pic19 pic20 pic21 pic22 pic23"
+    "pic24 pic25 pic26 pic27 pic28 pic29"
+    "pic30 pic31 pic32 pic33 pic34 pic35"
+    "pic36 pic37 pic38 pic39 pic40 .";
+    margin-left: 3vw;
+
+}
+
+.pic0 { grid-area: pic0;
+margin-bottom:4vw;
+
+ }
+
+.pic1 { grid-area: pic1; }
+
+.pic2 { grid-area: pic2; }
+
+.pic3 { grid-area: pic3; }
+
+.pic4 { grid-area: pic4; }
+
+.pic10 { grid-area: pic10; }
+
+.pic11 { grid-area: pic11; }
+
+.pic12 { grid-area: pic12; }
+
+.pic13 { grid-area: pic13; }
+
+.pic14 { grid-area: pic14; }
+
+.pic15 { grid-area: pic15; }
+
+.pic16 { grid-area: pic16; }
+
+.pic17 { grid-area: pic17; }
+
+.pic18 { grid-area: pic18; }
+
+.pic19 { grid-area: pic19; }
+
+.pic20 { grid-area: pic20; }
+
+.pic21 { grid-area: pic21; }
+
+.pic22 { grid-area: pic22; }
+
+.pic23 { grid-area: pic23; }
+
+.pic24 { grid-area: pic24; }
+
+.pic25 { grid-area: pic25; }
+
+.pic26 { grid-area: pic26; }
+
+.pic27 { grid-area: pic27; }
+
+.pic28 { grid-area: pic28; }
+
+.pic29 { grid-area: pic29; }
+
+.pic30 { grid-area: pic30; }
+
+.pic31 { grid-area: pic31; }
+
+.pic32 { grid-area: pic32; }
+
+.pic33 { grid-area: pic33; }
+
+.pic34 { grid-area: pic34; }
+
+.pic35 { grid-area: pic35; }
+
+.pic36 { grid-area: pic36; }
+
+.pic37 { grid-area: pic37; }
+
+.pic38 { grid-area: pic38; }
+
+.pic39 { grid-area: pic39; }
+
+.pic40 { grid-area: pic40; }
+
+.pic5 { grid-area: pic5; }
+
+.pic6 { grid-area: pic6; }
+
+.pic7 { grid-area: pic7; }
+
+.pic8 { grid-area: pic8; }
+
+.pic9 { grid-area: pic9; }
+
 
