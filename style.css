@@ -180,7 +180,16 @@ font-family: Arial, Helvetica, sans-serif;}
 
 .description { grid-area: 5 / 2 / 6 / 5; }
 
-.purchase { grid-area: 6 / 2 / 7 / 5; }
+.purchase { grid-area: 6 / 2 / 5/ 5; 
+
+margin-top: 5vw;
+margin-left: -7vw;
+font-size: 1vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2vw;
+
+
+}
 
 figcaption{
   margin-left: 7vw;
@@ -214,3 +223,4 @@ font-size: 1.3vw;
   margin-left: 7vw;
   font-size: 1.3vw;
 }
+
